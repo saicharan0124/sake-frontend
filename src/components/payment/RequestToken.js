@@ -100,7 +100,7 @@ const RequestToken = (props) => {
             height: "215px",
         }}
       >
-        <p class="payment_user">Requested to {receiver}</p>
+        <p class="payment_user">Token Transfer</p>
         <p class="payment_note">{note}</p>
         <p class="payment_amount">
           {amount}
