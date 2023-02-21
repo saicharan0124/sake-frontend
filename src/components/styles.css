@@ -1,0 +1,13 @@
+.messages {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.summa{
+  position: absolute;
+  top:0px;
+  right: 0px;
+  font-size: 30px;
+}
