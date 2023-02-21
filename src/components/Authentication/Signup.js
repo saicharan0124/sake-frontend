@@ -53,7 +53,7 @@ const Signup = (props) => {
         },
       };
       const { data } = await axios.post(
-        "/api/user",
+        "https://sake-backend.onrender.com/api/user",
         {
           name:walletAddr,
           email:walletAddr,
